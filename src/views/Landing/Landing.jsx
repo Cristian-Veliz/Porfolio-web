@@ -1,22 +1,17 @@
 import React from 'react'
-import style from './Landing.module.css';
-import imgLanding from '../../assets/imgLanding.jpg'
+import { Link } from 'react-router-dom';
 
-const Landing = () => {
+
+
+function Landing() {
   return (
-    <div className={style.container}>
-    <img src={imgLanding} alt="LandingImg" className={style.image} />
-    <div className={style.content}>
-      <h1 style={{ color: "#e55743" }}>BIENVENIDO A MI PORFOLIO </h1>
-      <h2 >¡Gracias por tu visita!</h2>
-      <Link to='/home'>
-        <button className={style.button}>Ingresar</button>
-      </Link>
-    </div>
+    <div>
+      <h1 style={{ color: "#e55743" }}>Hola, Soy Cristian Veliz</h1>
+      <h2 >¡Bienvenido a mi Porfolio!</h2>
   </div>
   )
 }
 
-export default Landing
+export default Landing;
 
  
