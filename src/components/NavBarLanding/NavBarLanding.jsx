@@ -7,7 +7,7 @@ const NavBarLanding = () => {
   
 
   return (
-    <div className={style.mainContainer}>
+    <div >
       <nav className={style.navbar}>
         <div>
         <div className={style.logo}>
@@ -17,26 +17,26 @@ const NavBarLanding = () => {
         </div>
           <div className={style.divLink}>
             <Link className={style.container} to="/home">
-              Products
+              Inicio
             </Link>
             <div className={style.divLink}>
               <Link className={style.container} to="/contact">
-                Contact
+              Proyectos
               </Link>
             </div>
             <div className={style.divLink}>
               <Link className={style.container} to="/about">
-                About
+                Sobre Mi
               </Link>
             </div>
             <div className={style.divLink}>
               <Link className={style.container} to="/register">
-                Register
+                Contacto
               </Link>
             </div>
             <div className={style.divLink}>
               <Link className={style.container} to="/login">
-                Login
+                CV
               </Link>
             </div>
           </div>
