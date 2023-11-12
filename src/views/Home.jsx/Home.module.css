@@ -1,0 +1,35 @@
+/* Home.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+  }
+  
+  .leftContent {
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    /* border: 1px solid #aea9a9; */
+    
+  }
+  
+  .rightContent {
+    display: inline;
+    max-width: 100%;
+    /* border: 1px solid #aea9a9; */
+  }
+  
+  .button {
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 8px;
+    margin: 5px;
+  }
+  
+  .rightContent h1{
+    display: flex;
+  }
+ 
+  
