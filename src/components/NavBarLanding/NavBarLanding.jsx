@@ -20,7 +20,7 @@ const NavBarLanding = () => {
               Inicio
             </Link>
             <div className={style.divLink}>
-              <Link className={style.container} to="/contact">
+              <Link className={style.container} to="/proyects">
               Proyectos
               </Link>
             </div>
@@ -30,12 +30,12 @@ const NavBarLanding = () => {
               </Link>
             </div>
             <div className={style.divLink}>
-              <Link className={style.container} to="/register">
+              <Link className={style.container} to="/contact">
                 Contacto
               </Link>
             </div>
             <div className={style.divLink}>
-              <Link className={style.container} to="/login">
+              <Link className={style.container} to="/cv">
                 CV
               </Link>
             </div>

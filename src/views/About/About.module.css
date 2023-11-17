@@ -26,7 +26,7 @@
     border: 0;
     background: transparent;
     text-decoration: none;
-    color: #2196f3;
+    color: #e55743;
     text-transform: uppercase;
     letter-spacing: 0.25em;
     outline: none;
@@ -41,7 +41,7 @@
   
   .button:hover {
     background-color: #424141;
-    color: #97e9ff;
+    color: whitesmoke;
   }
   
   .container h1 {

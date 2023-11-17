@@ -31,5 +31,9 @@
   .rightContent h1{
     display: flex;
   }
+
+  .leftContent p{
+    font-size: 20px;
+  }
  
   
