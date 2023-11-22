@@ -1,6 +1,10 @@
 import React from "react";
 import style from "./Home.module.css";
+import { Link } from "react-router-dom";
 import imgPerfil from "../../assets/img.png";
+import FooterSimple from "../../components/FooterSimple/FooterSimple";
+
+
 
 function Home() {
   return (
@@ -23,13 +27,15 @@ function Home() {
         <h1 style={{ color: "#2196f3" }}>Cristian Ariel Veliz</h1>
         <div className={style.cardPerfil}>
           <div className={style.contentImg}>
-
+          <Link to='/contact'>
           <img src={imgPerfil} alt="imagen Perfil" />
+          </Link>
           </div>
         </div>
         <button className={style.button}>Linkedin</button>
         <button className={style.button}>CV</button>
       </div>
+      <FooterSimple/>
     </div>
   );
 }
