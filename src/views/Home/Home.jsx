@@ -32,7 +32,9 @@ function Home() {
           </Link>
           </div>
         </div>
+        <Link to='https://www.linkedin.com/in/cristianvelizfullstack/'>
         <button className={style.button}>Linkedin</button>
+        </Link>
         <button className={style.button}>CV</button>
       </div>
       <FooterSimple/>
