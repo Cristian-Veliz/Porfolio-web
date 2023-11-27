@@ -78,6 +78,8 @@
 }
 
 .contentImg {
+  display: flex;
+  position: fixed;
   height: 250px;
   width: 250px;
   border: 1px solid black;
@@ -100,4 +102,20 @@ body {
   height: 150px;
   margin: 50px;
 
+}
+
+.logo {
+display: flex;
+position: relative;
+height: 50px;
+width: 50px;
+}
+
+.logo img {
+
+height: 40px;
+width: 40px;
+border-radius: 0;
+bottom: -180px;
+left: -20px;
 }

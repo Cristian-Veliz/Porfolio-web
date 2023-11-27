@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Home.module.css";
 import { Link } from "react-router-dom";
 import imgPerfil from "../../assets/img.png";
+import linkedinLogo from "../../assets/linkedinLogoN.png"
 import FooterSimple from "../../components/FooterSimple/FooterSimple";
 
 
@@ -30,6 +31,12 @@ function Home() {
           <Link to='/contact'>
           <img src={imgPerfil} alt="imagen Perfil" />
           </Link>
+          </div>
+          <div className={style.logo}>
+            <Link to='https://www.linkedin.com/in/cristianvelizfullstack/'>
+            <img src={linkedinLogo} alt="LogoLinkedin" />
+            </Link>
+            
           </div>
         </div>
         <Link to='https://www.linkedin.com/in/cristianvelizfullstack/'>
