@@ -3,10 +3,11 @@ import style from "./Home.module.css";
 import { Link } from "react-router-dom";
 import imgPerfil from "../../assets/img.png";
 import linkedinLogo from "../../assets/linkedinLogoN.png"
+import gitHubLogo from "../../assets/logoGit.png"
 import FooterSimple from "../../components/FooterSimple/FooterSimple";
 
 
-
+ 
 function Home() {
   return (
     <div className={style["container-principal"]}>
@@ -36,7 +37,10 @@ function Home() {
             <Link to='https://www.linkedin.com/in/cristianvelizfullstack/'>
             <img src={linkedinLogo} alt="LogoLinkedin" />
             </Link>
-            
+            <Link to='https://github.com/Cristian-Veliz'>
+            <img src={gitHubLogo} alt="Logo gitHub" />
+            </Link>
+
           </div>
         </div>
         <Link to='https://www.linkedin.com/in/cristianvelizfullstack/'>

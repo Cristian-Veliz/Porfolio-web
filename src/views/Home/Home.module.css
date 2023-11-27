@@ -107,8 +107,8 @@ body {
 .logo {
 display: flex;
 position: relative;
-height: 50px;
-width: 50px;
+height: 45px;
+width: 45px;
 }
 
 .logo img {
@@ -118,4 +118,8 @@ width: 40px;
 border-radius: 0;
 bottom: -180px;
 left: -20px;
+}
+
+.logo img:hover {
+  transform: scale(1.20);
 }
