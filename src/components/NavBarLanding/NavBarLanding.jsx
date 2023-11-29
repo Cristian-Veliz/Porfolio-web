@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import style from './NavBar.module.css';
 import LogoNav from '../../assets/logoPorfolio.png';
+import LogoCV from '../../assets/logoCV.png';
+import LogoCristianVeliz from '../../assets/LogoCristianVeliz.png' 
+import Logo from '../../assets/Logo.png'
 
 
 const NavBarLanding = () => {
@@ -12,7 +15,7 @@ const NavBarLanding = () => {
         <div>
         <div className={style.logo}>
           <Link to="/">
-            <img src={LogoNav} alt="logo" />
+            <img src={Logo} alt="logoCristianVeliz" />
           </Link>
         </div>
           <div className={style.divLink}>
