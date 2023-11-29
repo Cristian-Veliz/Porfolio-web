@@ -1,0 +1,44 @@
+.proyectos {
+    height: 100px;
+    width: 500px;
+    top: 100px;
+   
+}
+
+.proyectos h1 {
+   margin-top: -300px;
+   margin-right: 00px;
+}
+
+.proyectos p {
+    text-align:left;
+    margin-right: -400px;
+}
+
+
+.leftContent {
+    width: 50%;
+    height: 50%;
+    text-align: left;
+ 
+  
+    /* border: 1px solid #aea9a9; */
+  }
+
+.leftContent p{
+    height: 100px;
+    width: 500px;
+    margin-left: -600px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    //border: 1px solid blue;
+}
+
+.leftContent h2{
+    height: 50px;
+    width: 500px;
+    margin-left: -600px;
+    margin-top: 100px;
+    //border: 1px solid blue;
+    
+}
