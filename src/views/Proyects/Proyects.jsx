@@ -4,7 +4,7 @@ import style from "./Proyects.module.css";
 function Proyects() {
   return (
     <div className={style.proyectos}>
-        <h1 style={{ color: "#2196f3" }}>Proyectos</h1>
+        <h1 style={{ color: "#2196f3" }}>PROYECTOS</h1>
       <div className={style.leftContent}>
         <h2>E-Commerce Divano</h2>
         <p>
@@ -15,6 +15,7 @@ function Proyects() {
           garantizamos la máxima seguridad de tus datos personales y de pago,
           para que puedas comprar con total confianza."
         </p>
+        <button className={style.button}>GitHub Repo</button>
       </div>
     </div>
   );

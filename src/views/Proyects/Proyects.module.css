@@ -17,12 +17,10 @@
 
 
 .leftContent {
+    
     width: 50%;
     height: 50%;
     text-align: left;
- 
-  
-    /* border: 1px solid #aea9a9; */
   }
 
 .leftContent p{
@@ -42,3 +40,21 @@
     //border: 1px solid blue;
     
 }
+
+.proyectos h1{
+    font-size: 30px;
+}
+
+
+.button {
+    display: flex;
+    position: absolute;
+    margin-bottom: 8px;
+    left: 60px;
+    top:500px;
+    background-color: #171718;
+  }
+  
+  .button:hover {
+    border: 1px solid #2196f3;
+  }
