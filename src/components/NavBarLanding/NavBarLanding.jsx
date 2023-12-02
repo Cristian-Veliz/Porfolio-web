@@ -37,11 +37,6 @@ const NavBarLanding = () => {
                 Contacto
               </Link>
             </div>
-            <div className={style.divLink}>
-              <Link className={style.container} to="/cv">
-                CV
-              </Link>
-            </div>
           </div>
         
         </div>
