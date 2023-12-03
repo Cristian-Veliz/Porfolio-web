@@ -5,15 +5,16 @@
     background-color: #393d42;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     width:100%;
-    height: 110px;
+    height: 80px;
     position: fixed;
     bottom: 0;
     left: 0;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    top: max;
+    z-index: 1000;
   }
   
   .footerContent {
@@ -26,14 +27,5 @@
   .footerContent p {
   font-size: 15px;
   margin: 5px;
-  }
-  
-  .footer a {
-    color: #e55743;
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
   }
   

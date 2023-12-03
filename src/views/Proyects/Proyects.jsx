@@ -1,12 +1,12 @@
 import React from "react";
 import style from "./Proyects.module.css";
 import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import divano01 from './assets/divano01.jpg';
+import divano02 from './assets/divano02.jpg';
 
 function Proyects() {
-    let sum = 0;
-    for (let i = 1; i <= 10; i++) {
-      sum += i;
-    }
   return (
     <div >
       <div className={style.leftContent}>
@@ -28,6 +28,24 @@ function Proyects() {
         <button>Video Divano</button>
         </Link>
         </div>
+        
+        <Carousel 
+         showArrows={false}
+         showStatus={false}
+         showThumbs={true}
+         dynamicHeight={false}
+        >
+        <div className={style.carousel}>
+        <img src={divano01} alt="divano01" />
+        </div>
+        <div className={style.carousel}>
+        <img src={divano02} alt="divano02" />
+        </div>
+        
+     
+
+        </Carousel>
+        
       </div>
     </div>
   );

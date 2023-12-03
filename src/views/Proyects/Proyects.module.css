@@ -12,10 +12,11 @@
     display:flex;
     position: absolute;
     height: 300px;
-    width: 500px;
+    width: 440px;
     text-align: left;
     left: 0px;
     margin-top: 150px;
+   
   
     
 }
@@ -39,17 +40,45 @@
 
 
 .botones button {
- display: inline-flex;
+ display: inline-block;
  position: relative;
- left: -250px;
- top: 200px;
- margin-top: 130px;
- margin-right: 10px;
+ margin: 10px;
  cursor: pointer;
-      
+ top: 350px;
+ margin-top: 20px;
+ margin-left: -300px;
+ left: 50px;     
   }
   
   .botones button:hover {
     border: 1px solid #2196f3;
   }
 
+.carousel {
+  display: inline-block;
+  position: relative; 
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid white;
+  left: 100px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  
+}
+
+
+.carousel img {
+  height: 300px;
+  width:600px;
+  /* box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9); */
+  transition: transform 2s ease-in-out;
+ 
+
+
+
+}
+
+.carousel img:hover {
+  border: 2px solid #2196f3;
+}

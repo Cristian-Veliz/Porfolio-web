@@ -3,7 +3,7 @@ import style from './NavBar.module.css';
 import LogoNav from '../../assets/logoPorfolio.png';
 import LogoCV from '../../assets/logoCV.png';
 import LogoCristianVeliz from '../../assets/LogoCristianVeliz.png' 
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/CristianVeliz.png'
 
 
 const NavBarLanding = () => {
