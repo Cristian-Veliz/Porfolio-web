@@ -18,8 +18,8 @@ function Home() {
           Con background en estudios de arquitectura y empresas de construcción,
           valoro enormemente el trabajo en equipo. Mi enfoque profesional se
           especializa en el desarrollo Frontend, respaldado por
-          conocimientos en metodologías ágiles, GIT, y el uso de tecnologías
-          como Sequelize.js, PostgreSQL, React.js, Redux.js y CSS. <br />
+          conocimientos en metodologías ágiles, GIT, <br /> y el uso de tecnologías
+          como <strong>JavaScript, HTML, CSS, Sequelize.js, React.js, Redux.js, PostgreSQL, Node.js, Express y MySQL entre otros.</strong> <br />
           Mis habilidades blandas incluyen la comunicación efectiva, la
           resolución de problemas, la adaptabilidad, la capacidad de liderazgo y
           la colaboración efectiva en equipos. Estoy dedicado a seguir
@@ -41,7 +41,7 @@ function Home() {
             <Link to='https://github.com/Cristian-Veliz'>
             <img src={gitHubLogo} alt="Logo gitHub" />
             </Link>
-            <Link>
+            <Link to='https://drive.google.com/file/d/18zoAP9-XD4IdhTEUmYV6TZO1nq5I6tcn/view?usp=drive_link'>
             <img 
             style={{backgroundColor: 'black', height: '35px', width: '35px', bottom: '-182px', marginLeft: '6px'}}
             src={logoCV} alt="logoCV" 

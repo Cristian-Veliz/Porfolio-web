@@ -5,27 +5,40 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import divano01 from './assets/divano01.jpg';
 import divano02 from './assets/divano02.jpg';
+import divano03 from './assets/divano03.jpg';
+import divano04 from './assets/divano04.jpg';
+import divano05 from './assets/divano05.jpg';
+import divano06 from './assets/divano06.jpg';
+import divano07 from './assets/divano07.jpg';
+import divano08 from './assets/divano08.jpg';
+import divano09 from './assets/divano09.jpg';
+import food01 from './assets/food01.jpg';
+
+
+
+
+
+
 
 function Proyects() {
   return (
-    <div >
+    <div className={style.principal}>
       <div className={style.leftContent}>
-        <h1>PROYECTOS</h1>
+        <h1 style={{fontSize: '30px'}}>PROYECTOS</h1>
         <h2>E-Commerce Divano</h2>
-        <p>
+        <p style={{fontSize: '15px'}}>
           Divano es tu ecommerce de muebles en línea. Nuestra misión es
           proporcionarte una experiencia de compra de muebles en linea
-          excepcional. Hemos diseñado nuestro sitio web para que puedas buscar y
-          renovar tus muebles favoritos de forma rápida y sencilla. Además,
-          garantizamos la máxima seguridad de tus datos personales y de pago,
+          excepcional. Hemos diseñado nuestro sitio web para que puedas buscar y renovar tus muebles favoritos de forma rápida y sencilla. Además,
+          garantizamos la máxima seguridad de tus datos personales <br /> y de pago,
           para que puedas comprar con total confianza.
         </p>
         <div className={style.botones}>
         <Link to='https://github.com/Cristian-Veliz/ProyectoFinal'>
-        <button>GitHub Repo</button>
+        <button style={{fontSize: '14px'}}>GitHub</button>
         </Link>
         <Link to='https://vimeo.com/manage/videos/874243845'>
-        <button>Video Divano</button>
+        <button style={{fontSize: '14px', margin: '10px'}}>Video</button>
         </Link>
         </div>
         
@@ -36,15 +49,54 @@ function Proyects() {
          dynamicHeight={false}
         >
         <div className={style.carousel}>
-        <img src={divano01} alt="divano01" />
+        <img src={divano01} alt="divano01"/>
         </div>
         <div className={style.carousel}>
-        <img src={divano02} alt="divano02" />
+        <img src={divano02} alt="divano02"/>
         </div>
-        
+        <div className={style.carousel}>
+        <img src={divano03} alt="divano03"/>
+        </div>
+        <div className={style.carousel}>
+          <img src={divano04} alt="divano04"/>
+        </div>
+        <div className={style.carousel}>
+        <img src={divano05} alt="divano05"/>
+        </div>
+        <div className={style.carousel}>
+        <img src={divano06} alt="divano06"/>
+        </div>
+        <div className={style.carousel}>
+        <img src={divano07} alt="divano07"/>
+        </div>
+        <div className={style.carousel}>
+        <img src={divano08} alt="divano08"/>
+        </div>
+        <div className={style.carousel}>
+        <img src={divano09} alt="divano09"/>
+        </div>
      
 
         </Carousel>
+      <div>
+        <p style={{fontSize: '15px', top: '450px'}}>
+        <h2 style={{top: '-150px'}}>Food-App</h2>
+        Bienvenido a Food, tu entrada al fascinante universo culinario. Aquí, exploramos una amplia variedad de recetas provenientes de la API de alimentos, desde platos tradicionales hasta creaciones innovadoras. Food es el espacio perfecto para la expresión de tu creatividad culinaria. Además de descubrir nuevas delicias, tienes la oportunidad de contribuir con tus propias recetas y ser parte fundamental de esta comunidad única en la red. ¡Únete, explora y comparte tus creaciones deliciosas hoy mismo!
+        </p>
+      </div>
+      <div className={style.botones}>
+        <Link to='https://github.com/Cristian-Veliz/PI-Foods'>
+        <button style={{fontSize: '14px', top: '800px', left: '-1330px'}}>GitHub</button>
+        <Link to='https://vimeo.com/890944640?share=copy'>
+        <button style={{fontSize: '14px', margin: '10px', top: '800px', left: '-1333px'}}>Video</button>
+        </Link>
+        </Link>
+      </div>
+      <div className={style.food}>
+      <img className={style.food} src={food01} alt="LandingFood" />
+
+      </div>
+      
         
       </div>
     </div>

@@ -20,18 +20,18 @@ const NavBarLanding = () => {
         </div>
           <div className={style.divLink}>
             <Link className={style.container} to="/home">
-              Inicio
+              Sobre Mi
             </Link>
             <div className={style.divLink}>
               <Link className={style.container} to="/proyects">
               Proyectos
               </Link>
             </div>
-            <div className={style.divLink}>
+            {/* <div className={style.divLink}>
               <Link className={style.container} to="/about">
                 Sobre Mi
               </Link>
-            </div>
+            </div> */}
             <div className={style.divLink}>
               <Link className={style.container} to="/contact">
                 Contacto
