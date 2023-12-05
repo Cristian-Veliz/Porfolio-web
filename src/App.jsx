@@ -5,6 +5,7 @@ import NavBarLanding from './components/NavBarLanding/NavBarLanding';
 import Home from './views/Home/Home';
 import About from './views/About/About';
 import Proyects from './views/Proyects/Proyects';
+import Contact from './views/Contact/Contact';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/proyects' element={<Proyects/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       </Routes>      
     </div>
   )
