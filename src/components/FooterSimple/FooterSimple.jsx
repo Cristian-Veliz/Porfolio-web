@@ -5,8 +5,8 @@ const SimpleFooter = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
-        <p>&copy; {new Date().getFullYear()} Developer by Cristian Veliz - Todos los derechos reservados</p>
-        <p>Correo Electrónico: cristianveliz6@gmail.com</p>
+        <p>&copy; {new Date().getFullYear()} Developer by Cristian Veliz - Todos los derechos reservados - Correo Electrónico: <strong>cristianveliz6@gmail.com</strong></p>
+        {/* <p>Correo Electrónico: cristianveliz6@gmail.com</p> */}
       </div>
     </footer>
   );

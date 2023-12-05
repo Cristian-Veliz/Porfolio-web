@@ -162,3 +162,20 @@ right: -35px;
 .consulta {
   text-align: center;
 }
+
+.miSweetAlert {
+  max-width: 100px;
+  font-size: 12px; 
+  transform: scale(0.8);
+}
+
+.footer { 
+display: flex;
+position: fixed;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
