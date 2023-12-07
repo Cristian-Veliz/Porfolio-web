@@ -31,10 +31,10 @@ function Proyects() {
           pago, para que puedas comprar con total confianza.
         </p>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/ProyectoFinal">
+          <Link to="https://github.com/Cristian-Veliz/ProyectoFinal" target="_blank" rel="noopener noreferrer">
             <button style={{ fontSize: "14px", left: "0px"  }}>GitHub</button>
           </Link>
-          <Link to="https://vimeo.com/manage/videos/874243845">
+          <Link to="https://vimeo.com/manage/videos/874243845" target="_blank" rel="noopener noreferrer">
             <button style={{ fontSize: "14px", margin: "10px", left: "0px"  }}>Video</button>
           </Link>
         </div>
@@ -88,11 +88,11 @@ function Proyects() {
           </p>
         </div>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/PI-Foods">
+          <Link to="https://github.com/Cristian-Veliz/PI-Foods" target="_blank" rel="noopener noreferrer">
             <button style={{ fontSize: "14px", top: "800px", left: "-1350px" }}>
               GitHub
             </button>
-            <Link to="https://vimeo.com/890944640?share=copy">
+            <Link to="https://vimeo.com/890944640?share=copy" target="_blank" rel="noopener noreferrer">
               <button
                 style={{
                   fontSize: "14px",
@@ -125,11 +125,11 @@ function Proyects() {
           </p>
         </div>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/PI-Pokemon-main">
+          <Link to="https://github.com/Cristian-Veliz/PI-Pokemon-main" target="_blank" rel="noopener noreferrer">
             <button style={{ fontSize: "14px", top: "960px", left: "-2080px" }}>
               GitHub
             </button>
-            <Link to="https://vimeo.com/891600336?share=copy">
+            <Link to="https://vimeo.com/891600336?share=copy" target="_blank" rel="noopener noreferrer">
               <button
                 style={{
                   fontSize: "14px",
@@ -151,4 +151,4 @@ function Proyects() {
   );
 }
 
-export default Proyects;
+export default Proyects; 
