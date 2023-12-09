@@ -116,6 +116,27 @@
   transition: transform 2s ease-in-out;
 }
 
+.rick {
+  display: inline;
+  position: relative; 
+  
+}
+
+.rick img {
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  width:750px;
+  top: 1450px;
+  left: -2459px;
+  margin-top: -15px;
+  box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9);
+  transition: transform 2s ease-in-out;
+  margin-bottom: 50px;
+
+
+}
+
 body {
   margin: 0;
   padding: 0;

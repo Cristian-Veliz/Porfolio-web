@@ -14,6 +14,7 @@ import divano08 from "./assets/divano08.jpg";
 import divano09 from "./assets/divano09.jpg";
 import food01 from "./assets/food01.jpg";
 import pokemon01 from "./assets/pokemon01.jpg";
+import rickAndMorty from "./assets/rickAndMorty.jpg";
 
 function Proyects() {
   return (
@@ -145,6 +146,10 @@ function Proyects() {
           <div className={style.pokemon}>
             <img className={style.pokemon} src={pokemon01} alt="Landing Pokemon" />
           </div>
+        </div>
+        <div className={style.rick}>
+        <img className={style.rick} src={rickAndMorty} alt="Landing Rick And Morty" />
+
         </div>
       </div>
     </div>
