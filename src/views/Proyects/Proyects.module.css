@@ -4,7 +4,7 @@
 }
 
 
-.leftContent {
+.content {
     display:flex;
     position: absolute;
     /* border: 1px solid; */
@@ -15,7 +15,7 @@
    
   }
 
-.leftContent p{
+.content p{
     display:flex;
     position: absolute;
     height: 300px;
@@ -28,7 +28,7 @@
     
 }
 
- .leftContent h1{ 
+ .content h1{ 
     display: flex;
     position: relative;
     color: #2196f3;
@@ -37,7 +37,7 @@
     left: -30px;
 }
 
-.leftContent h2{ 
+.content h2{ 
     display: flex;
     position: absolute;
     top: 0px;
@@ -117,8 +117,9 @@
 }
 
 .rick {
-  display: inline;
+  
   position: relative; 
+  
   
 }
 
@@ -129,10 +130,9 @@
   width:750px;
   top: 1450px;
   left: -2459px;
-  margin-top: -15px;
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9);
   transition: transform 2s ease-in-out;
-  margin-bottom: 50px;
+  margin-bottom: -50px;
 
 
 }
@@ -141,8 +141,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height: 2110px;
+  
+ 
 }
 
 main {
-  width: 100%;
+  width: 100wh;
+  min-height: 100vh;
 }
+

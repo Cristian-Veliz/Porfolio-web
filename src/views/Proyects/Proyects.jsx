@@ -15,11 +15,12 @@ import divano09 from "./assets/divano09.jpg";
 import food01 from "./assets/food01.jpg";
 import pokemon01 from "./assets/pokemon01.jpg";
 import rickAndMorty from "./assets/rickAndMorty.jpg";
+import SimpleFooter from "../../components/FooterSimple/FooterSimple";
 
 function Proyects() {
   return (
     <div className={style.principal}>
-      <div className={style.leftContent}>
+      <div className={style.content}>
         <h1 style={{ fontSize: "30px"}}>PROYECTOS</h1>
         <h2>E-Commerce Divano</h2>
         <p style={{ fontSize: "15px", top: '-20px' }}>
@@ -152,6 +153,7 @@ function Proyects() {
 
         </div>
       </div>
+    <SimpleFooter className={style.rick}/>
     </div>
   );
 }
