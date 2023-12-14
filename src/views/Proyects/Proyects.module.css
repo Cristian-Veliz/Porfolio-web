@@ -94,7 +94,7 @@
 .food img {
   height: 400px;
   width:750px;
-  top: 510px;
+  top: 470px;
   left: -1005px;
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9);
   transition: transform 2s ease-in-out;
@@ -109,7 +109,7 @@
 .pokemon img {
   height: 400px;
   width:750px;
-  top: 990px;
+  top: 905px;
   left: -1708px;
   margin-top: -15px;
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9);
@@ -126,13 +126,13 @@
 .rick img {
   display: inline-block;
   position: relative;
-  height: 400px;
+  height: 370px;
   width:750px;
-  top: 1450px;
+  top: 1230px;
   left: -2459px;
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.9);
   transition: transform 2s ease-in-out;
-  margin-bottom: -50px;
+  margin-bottom: 50px;
 
 
 }
@@ -141,13 +141,12 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  height: 2110px;
-  
+  min-height: 100vh;
  
 }
 
 main {
   width: 100wh;
   min-height: 100vh;
+  
 }
-

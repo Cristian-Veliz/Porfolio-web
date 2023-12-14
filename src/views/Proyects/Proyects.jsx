@@ -21,23 +21,33 @@ function Proyects() {
   return (
     <div className={style.principal}>
       <div className={style.content}>
-        <h1 style={{ fontSize: "30px"}}>PROYECTOS</h1>
+        <h1 style={{ fontSize: "30px" }}>PROYECTOS</h1>
         <h2>E-Commerce Divano</h2>
-        <p style={{ fontSize: "15px", top: '-20px' }}>
+        <p style={{ fontSize: "15px", top: "-20px" }}>
           ¡Bienvenido a tu nuevo espacio con Divano! <br />
-          Divano es tu ecommerce de muebles de vanguardia en línea. Nuestra misión es
-          proporcionarte una experiencia de compra de muebles en linea
+          Divano es tu ecommerce de muebles de vanguardia en línea. Nuestra
+          misión es proporcionarte una experiencia de compra de muebles en linea
           excepcional. Hemos diseñado nuestro sitio web para que puedas buscar y
           renovar tus muebles favoritos de forma rápida y sencilla. Además,
-          garantizamos la máxima seguridad de tus datos personales y de
-          pago, para que puedas comprar con total confianza.
+          garantizamos la máxima seguridad de tus datos personales y de pago,
+          para que puedas comprar con total confianza.
         </p>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/ProyectoFinal" target="_blank" rel="noopener noreferrer">
-            <button style={{ fontSize: "14px", left: "0px"  }}>GitHub</button>
+          <Link
+            to="https://github.com/Cristian-Veliz/ProyectoFinal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ fontSize: "14px", left: "0px" }}>GitHub</button>
           </Link>
-          <Link to="https://vimeo.com/manage/videos/874243845" target="_blank" rel="noopener noreferrer">
-            <button style={{ fontSize: "14px", margin: "10px", left: "0px"  }}>Video</button>
+          <Link
+            to="https://vimeo.com/manage/videos/874243845"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ fontSize: "14px", margin: "10px", left: "0px" }}>
+              Video
+            </button>
           </Link>
         </div>
 
@@ -46,7 +56,6 @@ function Proyects() {
           showStatus={false}
           showThumbs={true}
           dynamicHeight={false}
-          
         >
           <div className={style.carousel}>
             <img src={divano01} alt="divano01" />
@@ -78,7 +87,7 @@ function Proyects() {
         </Carousel>
         <div>
           <p style={{ fontSize: "15px", top: "450px" }}>
-            <h2 style={{ top: "-150px", marginLeft: '30px' }}>Food-App</h2>
+            <h2 style={{ top: "-150px", marginLeft: "30px" }}>Food-App</h2>
             ¡Bienvenido a Food!, tu entrada al fascinante universo culinario.
             Aquí, exploramos una amplia variedad de recetas provenientes de la
             API de alimentos, desde platos tradicionales hasta creaciones
@@ -90,11 +99,19 @@ function Proyects() {
           </p>
         </div>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/PI-Foods" target="_blank" rel="noopener noreferrer">
+          <Link
+            to="https://github.com/Cristian-Veliz/PI-Foods"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button style={{ fontSize: "14px", top: "800px", left: "-1350px" }}>
               GitHub
             </button>
-            <Link to="https://vimeo.com/890944640?share=copy" target="_blank" rel="noopener noreferrer">
+            <Link
+              to="https://vimeo.com/890944640?share=copy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 style={{
                   fontSize: "14px",
@@ -112,32 +129,39 @@ function Proyects() {
           <img className={style.food} src={food01} alt="LandingFood" />
         </div>
         <div>
-          <p style={{ fontSize: "15px", top: "940px" }}>
-          <h2 style={{ top: "-140px", marginLeft: '30px'  }}>Pókemon-App</h2>
-            ¡Bienvenido a Pokémon! Esta aplicación está diseñada 
-            para los apasionados del anime que desean sumergirse en el
-            emocionante mundo de los Pokémon. Este proyecto nace con la
-            intención de brindar a los fanáticos una plataforma interactiva para
-            buscar, filtrar <br /> y explorar sus Pokémon favoritos. Pero eso no es
-            todo; también te ofrecemos la emocionante oportunidad de crear tus
-            propios Pokémon. Utiliza nuestra innovadora herramienta de creación
-            para dar vida a tus criaturas personalizadas, definiendo su
-            apariencia, habilidades, estadísticas y compártelas con la
-            comunidad!
+          <p style={{ fontSize: "15px", top: "850px" }}>
+            <h2 style={{ top: "-140px", marginLeft: "30px" }}>Pókemon-App</h2>
+            ¡Bienvenido a Pokémon! Esta aplicación está diseñada para los
+            apasionados del anime que desean sumergirse en el emocionante mundo
+            de los Pokémon. Este proyecto nace con la intención de brindar a los
+            fanáticos una plataforma interactiva para buscar, filtrar <br /> y
+            explorar sus Pokémon favoritos. Pero eso no es todo; también te
+            ofrecemos la emocionante oportunidad de crear tus propios Pokémon.
+            Utiliza nuestra innovadora herramienta de creación para dar vida a
+            tus criaturas personalizadas, definiendo su apariencia, habilidades,
+            estadísticas y compártelas con la comunidad!
           </p>
         </div>
         <div className={style.botones}>
-          <Link to="https://github.com/Cristian-Veliz/PI-Pokemon-main" target="_blank" rel="noopener noreferrer">
-            <button style={{ fontSize: "14px", top: "960px", left: "-2080px" }}>
+          <Link
+            to="https://github.com/Cristian-Veliz/PI-Pokemon-main"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ fontSize: "14px", top: "870px", left: "-2080px" }}>
               GitHub
             </button>
-            <Link to="https://vimeo.com/891600336?share=copy" target="_blank" rel="noopener noreferrer">
+            <Link
+              to="https://vimeo.com/891600336?share=copy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 style={{
                   fontSize: "14px",
                   margin: "10px",
-                  top: "960px",
-                  left: "-2080px"
+                  top: "870px",
+                  left: "-2080px",
                 }}
               >
                 Video
@@ -145,17 +169,71 @@ function Proyects() {
             </Link>
           </Link>
           <div className={style.pokemon}>
-            <img className={style.pokemon} src={pokemon01} alt="Landing Pokemon" />
+            <img
+              className={style.pokemon}
+              src={pokemon01}
+              alt="Landing Pokemon"
+            />
           </div>
         </div>
-        <div className={style.rick}>
-        <img className={style.rick} src={rickAndMorty} alt="Landing Rick And Morty" />
-
+        <div className="style.rick">
+          <p style={{ fontSize: "15px", top: "1310px", right: "-1600px" }}>
+            <h2 style={{ top: "-140px", marginLeft: "30px" }}>
+              Rick And Morty-App
+            </h2>
+            ¡Bienvenido a R & M! Esta aplicación utiliza una API para recopilar
+            información sobre más de 800 personajes de la serie. Los usuarios
+            pueden guardar sus personajes favoritos, así como crear y gestionar
+            sus propias versiones de personajes dentro del universo de Rick and
+            Morty. ¡Únete, explora y comparte tus creaciones hoy mismo!
+          </p>
+          <div className={style.botones}>
+            <Link
+              to="https://github.com/Cristian-Veliz/PI-Pokemon-main"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                style={{
+                  fontSize: "14px",
+                  top: "1580px",
+                  left: "-3300px",
+                  margin: "10px",
+                }}
+              >
+                GitHub
+              </button>
+              <Link
+                to="https://vimeo.com/891600336?share=copy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button
+                  style={{
+                    fontSize: "14px",
+                    margin: "4px",
+                    top: "1580px",
+                    left: "-3304px",
+                    marginBottom: "30px",
+                  }}
+                >
+                  Video
+                </button>
+              </Link>
+            </Link>
+            <div className={style.rick}>
+              <img
+                className="style.rick"
+                src={rickAndMorty}
+                alt="Landing Rick And Morty"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    <SimpleFooter className={style.rick}/>
+      <SimpleFooter className={style.rick} />
     </div>
   );
 }
 
-export default Proyects; 
+export default Proyects;
