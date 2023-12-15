@@ -185,11 +185,11 @@ function Proyects() {
             información sobre más de 800 personajes de la serie. Los usuarios
             pueden guardar sus personajes favoritos, así como crear y gestionar
             sus propias versiones de personajes dentro del universo de Rick and
-            Morty. ¡Únete, explora y comparte tus creaciones hoy mismo!
+            Morty. ¡Únete, explora y comparte tus creaciones!
           </p>
           <div className={style.botones}>
             <Link
-              to="https://github.com/Cristian-Veliz/PI-Pokemon-main"
+              to="https://github.com/Cristian-Veliz/ultimoRick"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -204,7 +204,7 @@ function Proyects() {
                 GitHub
               </button>
               <Link
-                to="https://vimeo.com/891600336?share=copy"
+                to=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
