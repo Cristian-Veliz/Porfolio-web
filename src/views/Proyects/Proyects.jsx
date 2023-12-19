@@ -204,7 +204,7 @@ function Proyects() {
                 GitHub
               </button>
               <Link
-                to=""
+                to="https://github.com/Cristian-Veliz/ultimoRick"
                 target="_blank"
                 rel="noopener noreferrer"
               >
