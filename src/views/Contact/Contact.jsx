@@ -220,9 +220,9 @@ const Contact = () => {
 
   return (
     <div className={styles.contactanos}>
-      <h3>¿Te gustaría contactarme?</h3>
-      <p> Si tienes alguna pregunta o necesitas más información, no dudes en contactarme. <br /> Estoy aquí para ayudarte en lo que necesites. </p>
-      <h4>Escríbeme tu consulta 📝</h4>
+      <h3 style={{ color: "#2196f3",}}>Desata Tu Potencial: Contáctame Ahora 🚀</h3>
+      <p> ¿Listo para dar el siguiente paso? Si tienes preguntas, ideas o simplemente quieres explorar posibilidades,  <br />estoy a solo un mensaje de distancia. ¡Haz clic y comencemos el viaje juntos! 📬✨</p>
+      <h4 style={{ color: "#2196f3",}}>Escríbeme tu consulta 📝</h4>
       <div>
         <form className={styles.formulario} onSubmit={manejarEnvio}>
           <input
