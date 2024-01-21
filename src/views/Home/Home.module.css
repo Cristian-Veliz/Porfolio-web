@@ -1,30 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
+}
+
 .container-principal {
   display: flex;
-  position:relative;
   justify-content: space-between;
   align-items: flex-start;
-  //border: 1px solid blanchedalmond;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  
- 
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .leftContent {
   width: 52%;
   height: 50%;
-  text-align:right;
+  text-align: right;
   display: inline-block;
   position: static;
   margin-top: 50px;
-
-  /* border: 1px solid #aea9a9; */
 }
 
 .rightContent {
   display: inline-block;
   max-width: 100%;
-  /* border: 1px solid #aea9a9; */
 }
 
 .button {
@@ -32,7 +40,6 @@
   position: relative;
   text-align: center;
   background-color: #171718;
-  /* transform: scale(0.8); */
   right: 100px;
   top: 410px;
   margin-right: 10px;
@@ -42,22 +49,20 @@
   border: 1px solid #2196f3;
 }
 
-
-
-.leftContent p{
+.leftContent p {
   font-size: 20px;
   margin-top: 0px;
   text-align: left;
 }
-.leftContent h1{
-  position: fixed;
+
+.leftContent h1 {
   font-size: 30px;
-  top:100px;
+  margin-top: 50px;
 }
 
 .cardPerfil {
   display: flex;
-  position: fixed;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid #171718;
@@ -65,37 +70,29 @@
   height: 400px;
   width: 300px;
   border-radius: 25px;
-  right: 140px;
-  top: 140px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   box-shadow: 0 0 13px 1px #65727c, 0 0 13px 3px #fff;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
+
 .cardPerfil:hover {
   transform: scale(1.05);
-  //border: 1px solid #2196f3;
 }
 
 .cardPerfil img {
   height: 300px;
   width: 200px;
-  position: relative;
-  z-index: 1;
   border-radius: 50%;
- 
 }
 
 .cardPerfil h1 {
-  position: relative;
-  left: 20px;
   font-size: 25px;
-  bottom: 170px;
-  color:#2196f3;
+  color: #2196f3;
 }
+
 .contentImg {
   display: flex;
-  position: fixed;
   height: 250px;
   width: 250px;
   border: 1px solid black;
@@ -109,46 +106,24 @@
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  //border: 1px solid black;
-
-  
 }
 
 .logo {
-display: flex;
-position: static;
-height: 45px;
-width: 45px;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
 }
 
 .logo img {
-
-height: 40px;
-width: 40px;
-border-radius: 0;
-bottom: -180px;
-left: -120px;
-margin-left: 2px;
-
+  height: 40px;
+  width: 40px;
+  border-radius: 0;
+  margin-left: 2px;
 }
 
 .logo img:hover {
   transform: scale(1.20);
-  /* box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out; */
-}
-
-
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  height: auto;
-}
-
-main {
-  width: 100%;
-  overflow: hidden;
 }
 
 .tech-container {
@@ -156,13 +131,11 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 10px;
-  
 }
 
-
 .tech-container img {
-  width: 60px; 
-  height: 60px; 
+  width: 60px;
+  height: 60px;
 }
 
 .tech-container h1 {
@@ -171,88 +144,59 @@ main {
   margin-top: 5px;
 }
 
-
-
-.javascript img{
-  text-align: center;
-}
-
-.javascript img:hover {
+.javascript img:hover,
+.html img:hover,
+.css img:hover,
+.react img:hover,
+.redux img:hover,
+.express img:hover,
+.PostgreSQL img:hover,
+.Vite img:hover {
   transform: scale(1.10);
   box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
   transition: transform 0.1s ease-in-out;
 }
 
-.html img{
+.Vite img {
   text-align: center;
 }
-
-.html img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-
-.css img{
-  text-align: center;
-}
-
-.css img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-.react img{
-  text-align: center;
-}
-
-.react img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-.redux img{
-  text-align: center;
-}
-
-.redux img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-.express img{
-  text-align: center;
-}
-
-.express img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-.PostgreSQL img{
-  text-align: center;
-}
-
-.PostgreSQL img:hover {
-  transform: scale(1.10);
-  box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
-  transition: transform 0.1s ease-in-out;
-}
-
-.Vite img{
-  text-align: center;
-  /* filter: invert(1);
-  background-color: hsl(216, 7%, 13%); */
-}
-
 
 .Vite img:hover {
   transform: scale(1.10);
   box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
   transition: transform 0.1s ease-in-out;
+}
+
+/* Estilos para pantallas más pequeñas (máximo ancho de 768px) */
+@media only screen and (max-width: 768px) {
+  .container-principal {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .leftContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .rightContent {
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .button {
+    right: 0;
+    top: 0;
+    margin-right: 0;
+  }
+
+  .cardPerfil {
+    right: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+ 
 }
