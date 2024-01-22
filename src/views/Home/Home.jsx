@@ -17,7 +17,7 @@ function Home() {
               fontSize: "26px",
               color: "#2196f3",
               position: "block",
-              marginTop: "0px",
+              marginTop: "5px",
             }}
           >
           Transformando Ideas en Experiencias Únicas 🚀
