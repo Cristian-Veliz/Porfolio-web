@@ -21,7 +21,7 @@ function Proyects() {
   return (
     <div className={style.principal}>
       <div className={style.content}>
-      <h1 style={{ fontSize: "30px", display: 'inline-flex', margin: 0 }}>PROYECTOS🚀➡️</h1>
+      <h1 style={{ fontSize: "30px", display: 'inline-flex', margin: 0 }}>PROYECTOS🚀 ➡️</h1>
         <h2>E-Commerce Divano</h2>
         <p style={{ fontSize: "15px", top: "-20px" }}>
           ¡Bienvenido a tu nuevo espacio con Divano! <br />
