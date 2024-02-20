@@ -168,7 +168,7 @@ main {
 }
 
 /* Estilos para pantallas más pequeñas (máximo ancho de 768px) */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container-principal {
     flex-direction: column;
     align-items: center;
