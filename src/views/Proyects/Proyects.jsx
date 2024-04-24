@@ -21,9 +21,22 @@ function Proyects() {
   return (
     <div className={style.principal}>
       <div className={style.content}>
-      <h1 style={{ fontSize: "30px", display: 'inline-flex', margin: 0 }}>PROYECTOS🚀 ➡️</h1>
-        <h2>E-Commerce Divano</h2>
+        <h1 style={{ fontSize: "30px", display: "inline-flex", margin: 0 }}>
+          PROYECTOS🚀 ➡️
+        </h1>
+        <h2>Todo-App</h2>
         <p style={{ fontSize: "15px", top: "-20px" }}>
+          ¡Bienvenido a Todo App!, tu herramienta esencial para la gestión de
+          tareas en línea. Diseñada para proporcionarte una experiencia
+          excepcional en la organización de tus tareas diarias. Inspirada en la
+          simplicidad y la eficiencia, nuestra misión es ayudarte a gestionar
+          tus tareas de forma rápida y sencilla, para que puedas lograr más y
+          mantener tu vida organizada.
+          <br />
+          Skills: JavaScript + TypeScript
+        </p>
+        <h2 style={{ top: "220px" }}>E-Commerce Divano</h2>
+        <p style={{ fontSize: "15px", top: "200px" }}>
           ¡Bienvenido a tu nuevo espacio con Divano! <br />
           Divano es tu ecommerce de muebles de vanguardia en línea. Nuestra
           misión es proporcionarte una experiencia de compra de muebles en linea
@@ -87,7 +100,7 @@ function Proyects() {
         </Carousel>
         <div>
           <p style={{ fontSize: "15px", top: "450px" }}>
-            <h2 style={{ top: "-150px", marginLeft: "30px" }}>Food-App</h2>
+            <h2 style={{ top: "-125px", marginLeft: "30px" }}>Food-App</h2>
             ¡Bienvenido a Food!, tu entrada al fascinante universo culinario.
             Aquí, exploramos una amplia variedad de recetas provenientes de la
             API de alimentos, desde platos tradicionales hasta creaciones
