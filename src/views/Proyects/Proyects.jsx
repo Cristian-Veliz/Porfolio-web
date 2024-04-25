@@ -15,6 +15,7 @@ import divano09 from "./assets/divano09.jpg";
 import food01 from "./assets/food01.jpg";
 import pokemon01 from "./assets/pokemon01.jpg";
 import rickAndMorty from "./assets/rickAndMorty.jpg";
+import img from "./assets/imgTodo.png";
 import SimpleFooter from "../../components/FooterSimple/FooterSimple";
 
 function Proyects() {
@@ -24,6 +25,7 @@ function Proyects() {
         <h1 style={{ fontSize: "30px", display: "inline-flex", margin: 0 }}>
           PROYECTOS🚀 ➡️
         </h1>
+        
         <h2>Todo-App</h2>
         <p style={{ fontSize: "15px", top: "-20px" }}>
           ¡Bienvenido a Todo App!, tu herramienta esencial para la gestión de
@@ -34,9 +36,41 @@ function Proyects() {
           mantener tu vida organizada.
           <br />
           Skills: JavaScript + TypeScript
+       
         </p>
-        <h2 style={{ top: "220px" }}>E-Commerce Divano</h2>
-        <p style={{ fontSize: "15px", top: "200px" }}>
+        <div className={style.botones}>
+          <Link
+            to="https://github.com/Cristian-Veliz/ProyectoFinal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ 
+              top: '300px',
+              fontSize: "14px", 
+              left: "0px" }}>GitHub</button>
+          </Link>
+          <Link
+            to="https://vimeo.com/manage/videos/874243845"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button style={{ 
+              top:'300px',
+              fontSize: "14px", 
+              margin: "10px", 
+              left: "0px" }}>
+              Video
+            </button>
+          </Link>
+        </div>
+        
+          <div className={style.todo}>
+          <img src={img} alt="LandingTodoApp" />
+        </div>
+
+        
+        <h2 style={{ top: "295px" }}>E-Commerce Divano</h2>
+        <p style={{ fontSize: "15px", top: "280px" }}>
           ¡Bienvenido a tu nuevo espacio con Divano! <br />
           Divano es tu ecommerce de muebles de vanguardia en línea. Nuestra
           misión es proporcionarte una experiencia de compra de muebles en linea
@@ -44,6 +78,8 @@ function Proyects() {
           renovar tus muebles favoritos de forma rápida y sencilla. Además,
           garantizamos la máxima seguridad de tus datos personales y de pago,
           para que puedas comprar con total confianza.
+          <br />
+          Skills: JavaScript + React
         </p>
         <div className={style.botones}>
           <Link
@@ -62,6 +98,7 @@ function Proyects() {
               Video
             </button>
           </Link>
+      
         </div>
 
         <Carousel
@@ -99,8 +136,8 @@ function Proyects() {
           </div>
         </Carousel>
         <div>
-          <p style={{ fontSize: "15px", top: "450px" }}>
-            <h2 style={{ top: "-125px", marginLeft: "30px" }}>Food-App</h2>
+          <p style={{ fontSize: "15px", top: "750px" }}>
+            <h2 style={{ top: "-130px", marginLeft: "30px" }}>Food-App</h2>
             ¡Bienvenido a Food!, tu entrada al fascinante universo culinario.
             Aquí, exploramos una amplia variedad de recetas provenientes de la
             API de alimentos, desde platos tradicionales hasta creaciones
@@ -109,6 +146,8 @@ function Proyects() {
             la oportunidad de contribuir con tus propias recetas y ser parte
             fundamental de esta comunidad única en la red. ¡Únete, explora y
             comparte tus creaciones deliciosas hoy mismo!
+            <br />
+            Skills: JavaScript + React
           </p>
         </div>
         <div className={style.botones}>
@@ -117,7 +156,10 @@ function Proyects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button style={{ fontSize: "14px", top: "800px", left: "-1350px" }}>
+            <button style={{ 
+              fontSize: "14px", 
+              top: "1110px", 
+              left: "-1350px" }}>
               GitHub
             </button>
             <Link
@@ -129,7 +171,7 @@ function Proyects() {
                 style={{
                   fontSize: "14px",
                   margin: "10px",
-                  top: "800px",
+                  top: "1110px",
                   left: "-1350px",
                 }}
               >
@@ -142,8 +184,8 @@ function Proyects() {
           <img className={style.food} src={food01} alt="LandingFood" />
         </div>
         <div>
-          <p style={{ fontSize: "15px", top: "850px" }}>
-            <h2 style={{ top: "-140px", marginLeft: "30px" }}>Pókemon-App</h2>
+          <p style={{ fontSize: "15px", top: "1180px" }}>
+            <h2 style={{ top: "-130px", marginLeft: "30px" }}>Pókemon-App</h2>
             ¡Bienvenido a Pokémon! Esta aplicación está diseñada para los
             apasionados del anime que desean sumergirse en el emocionante mundo
             de los Pokémon. Este proyecto nace con la intención de brindar a los
@@ -153,6 +195,8 @@ function Proyects() {
             Utiliza nuestra innovadora herramienta de creación para dar vida a
             tus criaturas personalizadas, definiendo su apariencia, habilidades,
             estadísticas y compártelas con la comunidad!
+            <br />
+            Skills: JavaScript + React
           </p>
         </div>
         <div className={style.botones}>
@@ -161,7 +205,12 @@ function Proyects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button style={{ fontSize: "14px", top: "870px", left: "-2080px" }}>
+            <button style={{ 
+              fontSize: "14px",
+               top: "910px", 
+               left: "-2080px",
+               top: "1210px",
+                }}>
               GitHub
             </button>
             <Link
@@ -173,7 +222,7 @@ function Proyects() {
                 style={{
                   fontSize: "14px",
                   margin: "10px",
-                  top: "870px",
+                  top: "1210px",
                   left: "-2080px",
                 }}
               >
@@ -190,8 +239,8 @@ function Proyects() {
           </div>
         </div>
         <div className="style.rick">
-          <p style={{ fontSize: "15px", top: "1310px", right: "-1600px" }}>
-            <h2 style={{ top: "-140px", marginLeft: "30px" }}>
+          <p style={{ fontSize: "15px", top: "1650px", right: "-1600px" }}>
+            <h2 style={{ top: "-130px", marginLeft: "30px" }}>
               Rick And Morty-App
             </h2>
             ¡Bienvenido a R & M! Esta aplicación utiliza una API para recopilar
@@ -199,6 +248,8 @@ function Proyects() {
             pueden guardar sus personajes favoritos, así como crear y gestionar
             sus propias versiones de personajes dentro del universo de Rick and
             Morty. ¡Únete, explora y comparte tus creaciones!
+            <br />
+            Skills: JavaScript + React
           </p>
           <div className={style.botones}>
             <Link
@@ -209,7 +260,7 @@ function Proyects() {
               <button
                 style={{
                   fontSize: "14px",
-                  top: "1580px",
+                  top: "1950px",
                   left: "-3300px",
                   margin: "10px",
                 }}
@@ -225,7 +276,7 @@ function Proyects() {
                   style={{
                     fontSize: "14px",
                     margin: "4px",
-                    top: "1580px",
+                    top: "1950px",
                     left: "-3304px",
                     marginBottom: "30px",
                   }}
