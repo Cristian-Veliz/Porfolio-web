@@ -35,7 +35,7 @@ function Proyects() {
           tus tareas de forma rápida y sencilla, para que puedas lograr más y
           mantener tu vida organizada.
           <br />
-          Skills: JavaScript + TypeScript
+          Skills: JavaScript + TypeScript 💻
        
         </p>
         <div className={style.botones}>
@@ -79,7 +79,7 @@ function Proyects() {
           garantizamos la máxima seguridad de tus datos personales y de pago,
           para que puedas comprar con total confianza.
           <br />
-          Skills: JavaScript + React
+          Skills: JavaScript + React 💻
         </p>
         <div className={style.botones}>
           <Link
@@ -147,7 +147,7 @@ function Proyects() {
             fundamental de esta comunidad única en la red. ¡Únete, explora y
             comparte tus creaciones deliciosas hoy mismo!
             <br />
-            Skills: JavaScript + React
+            Skills: JavaScript + React 💻
           </p>
         </div>
         <div className={style.botones}>
@@ -196,7 +196,7 @@ function Proyects() {
             tus criaturas personalizadas, definiendo su apariencia, habilidades,
             estadísticas y compártelas con la comunidad!
             <br />
-            Skills: JavaScript + React
+            Skills: JavaScript + React 💻
           </p>
         </div>
         <div className={style.botones}>
@@ -249,7 +249,7 @@ function Proyects() {
             sus propias versiones de personajes dentro del universo de Rick and
             Morty. ¡Únete, explora y comparte tus creaciones!
             <br />
-            Skills: JavaScript + React
+            Skills: JavaScript + React 💻
           </p>
           <div className={style.botones}>
             <Link
