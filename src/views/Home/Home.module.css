@@ -151,6 +151,7 @@ main {
 .redux img:hover,
 .express img:hover,
 .PostgreSQL img:hover,
+.TypeScript img:hover,
 .Vite img:hover {
   transform: scale(1.10);
   box-shadow: 0 0 5px 1px #65727c, 0 0 5px 1px #fff;
