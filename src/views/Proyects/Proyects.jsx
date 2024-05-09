@@ -40,7 +40,7 @@ function Proyects() {
         </p>
         <div className={style.botones}>
           <Link
-            to="https://github.com/Cristian-Veliz/ProyectoFinal"
+            to="https://github.com/Cristian-Veliz/todo-app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ function Proyects() {
               left: "0px" }}>GitHub</button>
           </Link>
           <Link
-            to="https://vimeo.com/manage/videos/874243845"
+            to="https://todo-app-self-six.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ function Proyects() {
               fontSize: "14px", 
               margin: "10px", 
               left: "0px" }}>
-              Video
+              Deploy
             </button>
           </Link>
         </div>
