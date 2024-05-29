@@ -7,7 +7,7 @@ function Landing() {
     <div className={style.container}>
       {/* <h1 style={{ color: "#2196f3", fontSize: '35px' }}>▌│█║▌║▌║Hola 👋, soy Cristian ║▌║▌║█│▌ </h1> */}
       <h1 style={{ color: "#2196f3", fontSize: '35px' }}>Hola 👋, soy Cristian Veliz </h1>
-      <h2>¡Bienvenido a mi Porfolio!</h2>
+      <h2>¡Bienvenido a mi Portfolio!</h2>
       <Link to="/home">
         <button className={style.button}>Ingresar</button>
       </Link>
