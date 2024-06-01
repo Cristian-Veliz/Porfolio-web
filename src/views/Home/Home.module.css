@@ -3,13 +3,18 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  height: auto;
+  overflow-x: hidden; /* Oculta cualquier contenido que se desborde horizontalmente */
+  height: 100vh; /* Establece la altura del body al 100% del viewport height */
+  display: flex; /* Usa flexbox para centrar verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
   font-family: 'Roboto', sans-serif;
 }
 
 main {
   width: 100%;
+  height: auto;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -17,7 +22,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-bottom: 65px;
 }
 
