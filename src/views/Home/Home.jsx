@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Home.module.css";
 import { Link } from "react-router-dom";
-import imgPerfil from "../../assets/img.png";
+import imgPerfil from "../../assets/img2.jpg";
 import linkedinLogo from "../../assets/linkedinLogoN.png";
 import gitHubLogo from "../../assets/logoGit.png";
 import logoCV from "../../assets/logoCV.png";
